@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 标签选择器，写上标签名 */
+        p {
+            color: red;
+            /* 修改文字大小 12像素 */
+            font-size: 12px;
+        }
+        div {
+            color: green;
+        }
+        /* 类选择器 */
+        /* 类选择器口诀：样式点定义，结构类(class)调用，一个或多个，开发最常用。 */
+        .red {
+            color: white;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .green {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            color: green;
+        }
+        .font35 {
+            font-size: 35px;
+        }
+        /* id选择器:样式#定义，结构id调用，只能调用一次，别人切勿使用 */
+        #pink {
+            color: grey;
+        }
+        /* 通配符选择器* */
+        * {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>有点意思</p>
+    <p>有点意思</p>
+    <p>有点意思</p>
+    <div>我是DIV</div>
+    <div>我是DIV</div>
+    <div id="pink">我是DIV</div>
+    <ul>
+        <li class="red">冰川</li>
+        <li class="green">冰雨</li>
+        <li>文秀</li>
+    </ul>
+    <div class="red">红色</div>
+    <div class="green"></div>
+    <div class="red">红色</div>
+    <div class="red font35">刘德华</div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 后代选择器 */
+        ol li {
+            color: red;
+        }
+
+        ol li a {
+            color: green;
+        }
+
+        .nve li a {
+            color: grey;
+        }
+
+        /* 子元素选择器 */
+        div>a {
+            color: green;
+        }
+
+        /* 并集选择器  约定的语法规范，我们并集选择器喜欢竖着写
+        一定要注意最后一个不需要加逗号*/
+        div,
+        a {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#">我是儿子</a>
+    <div>
+        <a href="#">我是儿子</a>
+        <p><a href="#">我是孙子</a></p>
+    </div>
+    <ol>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子 <a href="#">我是lvse</a></li>
+    </ol>
+    <ol class="nve">
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子</li>
+        <li>我是ol的孩子 <a href="#">我是lvse</a></li>
+    </ol>
+    <ul>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+        <li>我是ul的孩子</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            height: 41px;
+            line-height: 41px;
+            border-top: 3px solid red;
+            border-bottom: 1px solid pink;
+        }
+        .nav a {
+            font-size: 12px;
+            color: #4c4c4c;
+            text-decoration: none;
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .nav a:hover {
+            background-color: #eeeeee;
+            color: red;
+        }
+        .header {
+            width: 900px;
+            height: 200px;
+            background-color: pink;
+            margin:100px auto;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        /* 嵌套元素坍陷解决方法 */
+        .father {
+            width: 400px;
+            height: 400px;
+            background-color: purple;
+            margin-top: 50px;
+            /* border: 1px solid transparent; */
+            padding: 1px;
+
+        }
+        .son {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin-top: 100px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">设为主页</a>
+        <a href="#">新浪客户端</a>
+        <a href="#">微博</a>
+        <a href="#">关注我</a>
+    </div>
+    <div class="header">
+        <span>厘米的为满足</span>
+    </div>
+    <div class="father">
+        <div class="son">
+
+        </div>
+    </div>
+
+</body>
+</html>

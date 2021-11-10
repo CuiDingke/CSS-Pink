@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        h2 {
+            /* 修改字体 font-family */
+            font-family: '微软雅黑';
+            /* 修改字体大小 font-size */
+            font-size: 20px;
+        }
+
+        .bold {
+            /* 让文字加粗 bold 700 变细 noemal 400 */
+            font-weight: bold;
+        }
+
+        p {
+            /* 字体样式 italic*/
+            font-style: italic;
+            line-height: 26px;
+        }
+
+        em {
+            /* 把字体拉正 normal */
+            font-style: normal;
+        }
+
+        div {
+            /* font-style: italic;
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px; */
+            /* 复合属性 有顺序
+            font:font-style font-weight font-size/line-height font-family;
+            font-size和font-family不能省去 */
+            font: italic 700 12px 'Times New Roman';
+            color: blue;
+            text-align: center;
+            /* 下划线 underline 删除线 line-through 上划线overline */
+            text-decoration: line-through;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #suojin {
+            font-size: 20px;
+            /* 缩进 如果此时是2em 则缩进当前元素2个文字的大小*/
+            text-indent: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>pink的秘密</h2>
+    <p id="suojin">发觉第四 但是方法事件的发生地assccds
+        fsdfsa发觉fdsfdsfds第四警方的说法士大夫囧时间覅静安寺附近盛大积分的撒发的撒娇覅哦大家撒发生大反倒是覅大事就是覅就爱上对方</p>
+    <p>那一抹众人中最漂亮的颜色,</p>
+    <p>优雅,淡然,又那么心中清澈.</p>
+    <em>前端总是伴随着困难和犯错,</em>
+    <p>静心,坦然,攻克一个又一个.</p>
+    <p class="bold">拼死也要克服它,</p>
+    <p>这是pink的秘密也是老师最终的嘱托.</p>
+    <div>三生三世十里桃花</div>
+    <a href="http://www.baidu.com">百度</a>
+    <!-- 行内样式表 -->
+    <div style="line-height: 50px;">fsdjf</div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w {
+            width: 800px;
+            height: 1400px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        
+        .fixd {
+            position: fixed;
+            /* 浏览器50% */
+            left: 50%;
+            /* 在移动400 */
+            margin-left: 400px;
+            width: 50px;
+            height: 150px;
+            background-color: red;
+        }
+        
+        body {
+            height: 9000px;
+        }
+        
+        .nav {
+            position: sticky;
+            /* 距离浏览器顶端为0时 开始粘性定位 */
+            top: 0px;
+            width: 300px;
+            height: 200px;
+            margin: 100px auto;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="fixd"></div>
+    <div class="w">版心盒子 800像素</div> -->
+    <div class="nav">我是导航栏</div>
+</body>
+
+</html>

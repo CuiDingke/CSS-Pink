@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            /* 去掉小圆点 */
+            list-style: none;
+        }
+        .box {
+            width: 248px;
+            height: 163px;
+            border: 1px solid #cccccc;
+            margin: 100px auto;
+            /* 设置圆角矩形 */
+            border-radius: 10px;
+            /* border-radius: 10px 15px 30px 40px; */
+            /* 盒子阴影 */
+            /* box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.3); */
+        }
+        .box:hover {
+            box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.3); 
+        }
+        .box h3 {
+            height: 32px;
+            border-bottom: 1px dotted #cccccc;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 32px;
+            /* margin-left: 15px; */
+            padding-left: 15px;
+        }
+        .box ul li a {
+            font-size: 12px;
+            color: #666666;
+            text-decoration: none;
+            /* 文字阴影 */
+            text-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+        }
+        .box ul li a:hover {
+            text-decoration: underline;
+        }
+        .box ul li {
+            height: 23px;
+            line-height: 23px;
+            padding-left: 20px;
+        }
+        .box ul {
+            padding-top: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>品优购快报</h3>
+        <ul>
+            <li><a href="#">【特惠】薛冰川！！！</a></li>
+            <li><a href="#">【特惠】薛冰川！！！</a></li>
+            <li><a href="#">【特惠】薛冰川！！！</a></li>
+            <li><a href="#">【特惠】薛冰川！！！</a></li>
+            <li><a href="#">【特惠】薛冰川！！！</a></li>
+        </ul>
+    </div>
+</body>
+</html>

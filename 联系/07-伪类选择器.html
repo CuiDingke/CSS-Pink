@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- a:link 选择所有未被访问的链接 -->
+    <!-- a:visited 选择所有已被访问的链接 -->
+    <!-- a:hover 选择鼠标指针位于其上的链接 -->
+    <!-- a:active 选择活动链接(鼠标按下未弹起的链接) -->
+    <style>
+        /* 以下四个顺序不可变 link visited hover :active */
+        /* wei访问过的链接 */
+        a:link {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            color: #000;
+        }
+        a:active {
+            color: green;
+        }
+        input:focus {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="#">baidu</a>
+    <a href="#">百度</a>
+    <a href="sadasd">aaa</a>
+</body>
+</html>

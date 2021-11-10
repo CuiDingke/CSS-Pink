@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* display: inline-block; */
+            float: left;
+
+        }
+        /* 浮动特性
+        1、浮动元素会脱离标准流
+        2、浮动的元素会一行内显示并且元素顶部对其
+        3、浮动的元素会具有行内块元素的特性 */
+
+        /* 如果行内元素有了浮动，则不需转换为块级、行内块元素就可以更改大小 */
+        span {
+            width: 200px;
+            height: 2px;
+            background-color:red;
+            float:right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>左青龙</div>
+    <div>中间小老虎</div>
+    <div>右白虎</div>
+    <span>
+
+    </span>
+</body>
+</html>

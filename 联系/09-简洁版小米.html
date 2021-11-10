@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            display: block;
+            width: 230px;
+            height: 40px;
+            background-color: #55585a;
+            color: #ffffff;
+            text-decoration: none;
+            text-indent: 2em;
+            line-height: 40px;
+        }
+        a:hover {
+            background-color: #ff6700;
+        }
+        div {
+            width: 1000px;
+            height: 1000px;
+            /* 页面元素 既可以添加背景颜色也可以添加背景图片 背景图片覆盖了背景颜色 */
+            background-color: red;
+            background-image: url(images/pic.jpeg);
+            /* 默认情况下图片平铺 下面是不平铺  也可沿着x或y轴平铺  repeat-x repeat-y*/
+            background-repeat: no-repeat;
+            /* 改变背景图片的位置 background-position 水平居中 垂直靠上*/
+            background-position: center top;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">123456</a>
+    <a href="#">123456</a>
+    <a href="#">123456</a>
+    <a href="#">123456</a>
+    <a href="#">123456</a>
+    <a href="#">123456</a>
+    <div></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li 的权重 0 0 0 1 */
+        li {
+            color: red;
+        }
+        /* ul li 的权重 0 0 0 1 + 0 0 0 1 = 0 0 0 2 */
+        ul li {
+            color: pink;
+        }
+        /* .nav li 的权重 0 0 1 0 + 0 0 0 1 =  0 0 1 1 */
+        .nav li {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li>大猪蹄子</li>
+        <li>大肘子</li>
+        <li>猪尾巴</li>
+    </ul>
+</body>
+</html>
